@@ -32,9 +32,9 @@ const CakeStats = () => {
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = eggPrice.times(circSupply);
 
-  let vikingPerBlock = 0;
-  if(farms && farms[0] && farms[0].vikingPerBlock){
-    vikingPerBlock = new BigNumber(farms[0].vikingPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let fulcrumPerBlock = 0;
+  if(farms && farms[0] && farms[0].fulcrumPerBlock){
+    fulcrumPerBlock = new BigNumber(farms[0].fulcrumPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
@@ -44,7 +44,7 @@ const CakeStats = () => {
           {TranslateString(534, 'Egg Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total VIKING Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total FULCRUM Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
@@ -52,12 +52,12 @@ const CakeStats = () => {
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total VIKING Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total FULCRUM Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(540, 'New EGG/block')}</Text>
-          <Text bold fontSize="14px">{vikingPerBlock}</Text>
+          <Text bold fontSize="14px">{fulcrumPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

@@ -8,6 +8,7 @@ import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+import Information from './components/Information'
 
 const Hero = styled.div`
   align-items: center;
@@ -60,9 +61,9 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Viking Swap')}
+          {TranslateString(576, 'Fulcrum Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'The only yield farm for Warriors on the journey to Valhalla on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, 'The best DEFI platform on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>
@@ -70,6 +71,7 @@ const Home: React.FC = () => {
           <TwitterCard/>
           <CakeStats />
           <TotalValueLockedCard />
+          <Information/>
         </Cards>
       </div>
     </Page>

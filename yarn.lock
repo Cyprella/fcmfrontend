@@ -1835,9 +1835,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@VikingDefi/viking-uikit":
+"@Cyprella/fcm-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/VikingDefi/viking-uikit/tar.gz/68297b4ae9a7b42a433a39bf7b271a9fb37adbab"
+  resolved "https://codeload.github.com/Cyprella/fcm-uikit/tar.gz/a7584367fcdb5e1c0ea9fce2ffa656af5de25c49"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.vikingswap.finance/',
+        href: 'https://exchange.pancakeswap.finance/#/swap/XXX',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.vikingswap.finance/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/swap/XXX',
       },
     ],
   },
@@ -26,9 +26,9 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Armory',
+    label: 'Pools',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/pools',
   },
   {
     label: 'Info',
@@ -36,11 +36,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+        href: 'https://pancakeswap.info/token/XXX',
       },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/XXX',
       },
     ],
   },
@@ -50,15 +50,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/VikingDefi/",
+        href: "https://github.com/fulcrumcrypto",
       },
       {
         label: "Docs",
-        href: "https://vikingswap.gitbook.io/viking-swap/",
-      },
-      {
-        label: "Blog",
-        href: "https://viking-swap.medium.com/",
+        href: "https://fulcrumfinance.gitbook.io",
       },
     ],
   },

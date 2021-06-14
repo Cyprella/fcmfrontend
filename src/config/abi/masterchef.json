@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract VikingToken",
-        "name": "_viking",
+        "internalType": "contract Fulcrumtoken",
+        "name": "_fulcrum",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_vikingPerBlock",
+        "name": "__fulcrumPerBlock",
         "type": "uint256"
       },
       {
@@ -300,10 +300,10 @@
   },
   {
     "inputs": [],
-    "name": "viking",
+    "name": "fulcrum",
     "outputs": [
       {
-        "internalType": "contract VikingToken",
+        "internalType": "contract FulcrumToken",
         "name": "",
         "type": "address"
       }
@@ -314,7 +314,7 @@
   },
   {
     "inputs": [],
-    "name": "vikingPerBlock",
+    "name": "fulcrumPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -545,7 +545,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_vikingPerBlock",
+        "name": "_fulcrumPerBlock",
         "type": "uint256"
       }
     ],
